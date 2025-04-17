@@ -13,3 +13,4 @@ mmengine: 0.9.0
 pip: pip install timm==0.9.8 thop efficientnet_pytorch==0.7.1 einops grad-cam==1.4.8 dill==0.3.6 albumentations==1.3.1 pytorch_wavelets==1.3.0 -i https://pypi.tuna.tsinghua.edu.cn/simple
 
 Script of training model： train.py
+Script for calculating indicators using the trained model： val.py
