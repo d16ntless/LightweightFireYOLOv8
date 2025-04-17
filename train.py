@@ -4,7 +4,6 @@ from ultralytics import YOLO
 
 if __name__ == '__main__':
     model = YOLO('ultralytics/cfg/models/yolov8s-ircb-BiLevelRoutingAttention.yaml')
-    # model.load('yolov8n.pt') # loading pretrain weights
     model.train(data='',
                 cache=False,
                 imgsz=640,
