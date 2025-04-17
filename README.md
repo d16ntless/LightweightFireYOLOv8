@@ -14,3 +14,4 @@ pip: pip install timm==0.9.8 thop efficientnet_pytorch==0.7.1 einops grad-cam==1
 
 Script of training model： train.py
 Script for calculating indicators using the trained model： val.py
+The output result of the training script is in the "project, name" custom path and name in train.py. The same is true of the test script.
