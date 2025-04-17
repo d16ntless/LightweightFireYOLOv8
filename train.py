@@ -3,7 +3,7 @@ warnings.filterwarnings('ignore')
 from ultralytics import YOLO
 
 if __name__ == '__main__':
-    model = YOLO('ultralytics/cfg/models/yolov8s-ircb-BiLevelRoutingAttention.yaml')
+    model = YOLO('ultralytics/cfg/models/yolov8s-ircb.yaml')
     model.train(data='',
                 cache=False,
                 imgsz=640,
