@@ -4,7 +4,7 @@ from ultralytics import YOLO
 
 if __name__ == '__main__':
     model = YOLO('ultralytics/cfg/models/yolov8s-ircb.yaml')
-    model.train(data='',
+    model.train(data='./dataset/data.yaml',
                 cache=False,
                 imgsz=640,
                 epochs=100,
@@ -13,6 +13,6 @@ if __name__ == '__main__':
                 workers=8,
                 device='0',
                 optimizer='SGD', # using SGD
-                project='',
+                project='runs/train/project',
                 name='',
                 )
